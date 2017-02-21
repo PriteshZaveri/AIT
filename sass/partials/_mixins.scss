@@ -1,0 +1,6 @@
+@mixin default-border-box($border-clr : $clr-cyan-400, $br : 10px){
+  border:2px solid $border-clr;
+  border-radius: $br;
+  padding:1%;
+  display:inline-block;
+}
