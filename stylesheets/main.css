@@ -435,3 +435,31 @@ td,
 th {
   padding: 0;
 }
+
+/* line 7, ../sass/main.scss */
+.parallax-container {
+  height: 60vh !important;
+}
+
+/* line 11, ../sass/main.scss */
+.fa-code {
+  color: #ff6f00 !important;
+  font-size: 10em !important;
+}
+
+/* line 16, ../sass/main.scss */
+.fa-pencil {
+  color: #1565c0 !important;
+  font-size: 10em !important;
+}
+
+/* line 21, ../sass/main.scss */
+.fa-search {
+  color: #4caf50 !important;
+  font-size: 10em !important;
+}
+
+/* line 26, ../sass/main.scss */
+.header {
+  padding: 2%;
+}

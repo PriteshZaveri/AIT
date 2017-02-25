@@ -2,3 +2,27 @@
 @import "partials/variables";
 @import "partials/normalize";
 @import "partials/mixins";
+
+
+.parallax-container {
+     height: 60vh !important;
+   }
+
+.fa-code{
+  color:$clr-amber-900 !important;
+  font-size: 10em !important;
+}
+
+.fa-pencil{
+  color:$clr-blue-800 !important;
+  font-size: 10em !important;
+}
+
+.fa-search{
+  color:$clr-green-500 !important;
+  font-size: 10em !important;
+}
+
+.header{
+  padding: 2%;
+}
