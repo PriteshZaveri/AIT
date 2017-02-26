@@ -44,3 +44,53 @@ transition: all 300ms ease-in-out 10ms;
   font-weight: 300;
   border-bottom: 1px solid grey;
 }
+img[alt="pritesh"], img[alt="kevin"], img[alt="viraj"], img[alt="dhiral"]{
+  width:200px;
+  height:auto;
+}
+
+.row.ourteam.card{
+  padding:3%;
+}
+
+.ourteam{
+  .team-title{
+    color: $clr-grey-700;
+    span{
+      color: $clr-grey-600;
+      font-size: 0.7em;
+    }
+  }
+  p{
+    font-size: 1.2em;
+  }
+  a{
+    margin-right: 2%;
+  }
+
+}
+.team-title{
+  color: $clr-grey-700;
+  span{
+    color: $clr-grey-600;
+    font-size: 0.7em;
+  }
+}
+.team-title + p{
+  font-size: 1.2em;
+}
+
+.flex-left{
+  @include display-flex;
+  @include flex-direction(row);
+  @include justify-content(flex-start);
+  @include justify-content(space-between);
+
+}
+
+.flex-right{
+  @include display-flex;
+  @include flex-direction(row);
+  @include justify-content(flex-end);
+  @include justify-content(space-between);
+}

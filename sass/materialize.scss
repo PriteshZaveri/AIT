@@ -41,7 +41,7 @@
 @import "components/date_picker/default.date";
 @import "components/date_picker/default.time";
 
-.card{
+.card.services-card{
   &:hover{
     @extend .z-depth-3;
   }

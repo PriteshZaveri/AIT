@@ -483,3 +483,71 @@ th {
   font-weight: 300;
   border-bottom: 1px solid grey;
 }
+
+/* line 47, ../sass/main.scss */
+img[alt="pritesh"], img[alt="kevin"], img[alt="viraj"], img[alt="dhiral"] {
+  width: 200px;
+  height: auto;
+}
+
+/* line 52, ../sass/main.scss */
+.row.ourteam.card {
+  padding: 3%;
+}
+
+/* line 57, ../sass/main.scss */
+.ourteam .team-title {
+  color: #616161;
+}
+/* line 59, ../sass/main.scss */
+.ourteam .team-title span {
+  color: #757575;
+  font-size: 0.7em;
+}
+/* line 64, ../sass/main.scss */
+.ourteam p {
+  font-size: 1.2em;
+}
+/* line 67, ../sass/main.scss */
+.ourteam a {
+  margin-right: 2%;
+}
+
+/* line 72, ../sass/main.scss */
+.team-title {
+  color: #616161;
+}
+/* line 74, ../sass/main.scss */
+.team-title span {
+  color: #757575;
+  font-size: 0.7em;
+}
+
+/* line 79, ../sass/main.scss */
+.team-title + p {
+  font-size: 1.2em;
+}
+
+/* line 83, ../sass/main.scss */
+.flex-left {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+/* line 91, ../sass/main.scss */
+.flex-right {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
