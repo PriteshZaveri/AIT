@@ -476,7 +476,12 @@ th {
   transform: translateY(-50px);
 }
 
-/* line 41, ../sass/main.scss */
+/* line 40, ../sass/main.scss */
+#team {
+  transform: translateY(-50px);
+}
+
+/* line 44, ../sass/main.scss */
 .header {
   margin: 1% auto;
   width: 50%;
@@ -484,51 +489,51 @@ th {
   border-bottom: 1px solid grey;
 }
 
-/* line 47, ../sass/main.scss */
+/* line 50, ../sass/main.scss */
 img[alt="pritesh"], img[alt="kevin"], img[alt="viraj"], img[alt="dhiral"] {
   width: 200px;
   height: auto;
 }
 
-/* line 52, ../sass/main.scss */
+/* line 55, ../sass/main.scss */
 .row.ourteam.card {
   padding: 3%;
 }
 
-/* line 57, ../sass/main.scss */
+/* line 60, ../sass/main.scss */
 .ourteam .team-title {
   color: #616161;
 }
-/* line 59, ../sass/main.scss */
+/* line 62, ../sass/main.scss */
 .ourteam .team-title span {
   color: #757575;
   font-size: 0.7em;
 }
-/* line 64, ../sass/main.scss */
+/* line 67, ../sass/main.scss */
 .ourteam p {
   font-size: 1.2em;
 }
-/* line 67, ../sass/main.scss */
+/* line 70, ../sass/main.scss */
 .ourteam a {
   margin-right: 2%;
 }
 
-/* line 72, ../sass/main.scss */
+/* line 75, ../sass/main.scss */
 .team-title {
   color: #616161;
 }
-/* line 74, ../sass/main.scss */
+/* line 77, ../sass/main.scss */
 .team-title span {
   color: #757575;
   font-size: 0.7em;
 }
 
-/* line 79, ../sass/main.scss */
+/* line 82, ../sass/main.scss */
 .team-title + p {
   font-size: 1.2em;
 }
 
-/* line 83, ../sass/main.scss */
+/* line 86, ../sass/main.scss */
 .flex-left {
   display: -webkit-flex;
   display: flex;
@@ -540,7 +545,7 @@ img[alt="pritesh"], img[alt="kevin"], img[alt="viraj"], img[alt="dhiral"] {
   justify-content: space-between;
 }
 
-/* line 91, ../sass/main.scss */
+/* line 94, ../sass/main.scss */
 .flex-right {
   display: -webkit-flex;
   display: flex;
