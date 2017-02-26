@@ -460,6 +460,23 @@ th {
 }
 
 /* line 26, ../sass/main.scss */
+.fa-angle-up {
+  color: #607d8b !important;
+  font-size: 2em !important;
+  transition: all 300ms ease-in-out 10ms;
+}
+/* line 29, ../sass/main.scss */
+.fa-angle-up:hover {
+  transform: scale(1.3, 1.3);
+  text-shadow: 1px 1px 4px;
+}
+
+/* line 37, ../sass/main.scss */
+#services {
+  transform: translateY(-50px);
+}
+
+/* line 41, ../sass/main.scss */
 .header {
   padding: 2%;
 }
