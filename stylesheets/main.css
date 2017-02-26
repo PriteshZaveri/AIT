@@ -478,5 +478,8 @@ th {
 
 /* line 41, ../sass/main.scss */
 .header {
-  padding: 2%;
+  margin: 1% auto;
+  width: 50%;
+  font-weight: 300;
+  border-bottom: 1px solid grey;
 }
