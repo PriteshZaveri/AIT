@@ -40,6 +40,10 @@ transition: all 300ms ease-in-out 10ms;
 #team{
   transform: translateY(-50px);
 }
+#contact_us{
+  transform: translateY(-50px);
+}
+
 
 .header{
   margin: 1% auto;
@@ -48,52 +52,8 @@ transition: all 300ms ease-in-out 10ms;
   border-bottom: 1px solid grey;
 }
 img[alt="pritesh"], img[alt="kevin"], img[alt="viraj"], img[alt="dhiral"]{
-  width:200px;
-  height:auto;
-}
-
-.row.ourteam.card{
-  padding:3%;
-}
-
-.ourteam{
-  .team-title{
-    color: $clr-grey-700;
-    span{
-      color: $clr-grey-600;
-      font-size: 0.7em;
-    }
-  }
-  p{
-    font-size: 1.2em;
-  }
-  a{
-    margin-right: 2%;
-  }
-
-}
-.team-title{
-  color: $clr-grey-700;
-  span{
-    color: $clr-grey-600;
-    font-size: 0.7em;
-  }
-}
-.team-title + p{
-  font-size: 1.2em;
-}
-
-.flex-left{
-  @include display-flex;
-  @include flex-direction(row);
-  @include justify-content(flex-start);
-  @include justify-content(space-between);
-
-}
-
-.flex-right{
-  @include display-flex;
-  @include flex-direction(row);
-  @include justify-content(flex-end);
-  @include justify-content(space-between);
+  display:block;
+  width:250px;
+  height:250px !important;
+  margin: auto;
 }
